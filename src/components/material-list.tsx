@@ -6,12 +6,11 @@ import { List } from "@mui/material";
 const MaterialList: React.FC<{ list: IMaterialItem[] }> = ({ list }) => {
   return (
     <List>
-      {list.map((item) => (
-        <React.Fragment>
+      {list.map((item, key) => (
+        <React.Fragment key={key}>
           <MaterialListItem
             id={item.id}
             preview={item.preview}
-            key={item.id}
             title={item.title}
             description={item.description}
           />

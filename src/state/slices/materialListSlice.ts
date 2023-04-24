@@ -10,6 +10,7 @@ const initialState: MaterialsState = {
   items: [
     {
       id: 1,
+      type:"video",
       title: "Title 1",
       description: "Description 1",
       url: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=1",
@@ -17,6 +18,7 @@ const initialState: MaterialsState = {
     },
     {
       id: 2,
+      type:"video",
       title: "Title 2",
       description: "Description 2",
       url: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=1",
@@ -24,6 +26,7 @@ const initialState: MaterialsState = {
     },
     {
       id: 3,
+      type:"video",
       title: "Title 3",
       description: "Description 3",
       url: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=1",
