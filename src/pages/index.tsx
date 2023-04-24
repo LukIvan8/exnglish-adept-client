@@ -1,11 +1,14 @@
+import { Stack } from "@mui/system";
+import Link from "next/link";
+
 export default function Home() {
   return (
     <>
       <main>
-        <video width="900px" controls>
-          <source src="https://drive.google.com/uc?export=download&id=1VuGYrpTBa4b4x5K1NWCqY7JlcvujzXIe" type="video/mp4" />
-        </video>
+        <Stack direction="row" width="100vw"   component="div">
+          <Link style={{margin:"0 auto", fontSize:"36px"}} href="/materials"> Materials</Link>
+        </Stack>
       </main>
     </>
-  )
+  );
 }
